@@ -91,8 +91,8 @@ yarn build
 To update the Docker image, simply pull the new images and rebuild:
 
 ```bash
-docker compose pull
-docker compose up --force-recreate
+docker-compose pull
+docker-compose up --force-recreate
 ```
 
 ## License
